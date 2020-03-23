@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        JS Task 1
+    </title>
+   <script> type=txt</script>
+</head>
+<body style="background-color:grey;">
+
+    <h1 style="font-weight: bold;">JavaScript Task 1</h1>
+    
+    <h3 id="name"></h3>
+    <h5 style="font-weight: bold; font-size: large;">List of Courses:</h5>
+    <ul>
+        <li id="courses" style="font-weight: bold;"></li>
+    </ul>
+    
+    <p id="odd" style="font-weight: bold; margin-left: 5px;"></p>
+
+    <script>
+        var myName = "Michael Isaiah";
+        document.getElementById("name").innerHTML = "My name is" + " " + myName;
+        var myCourses = ["HTML", "Javascript", "CSS", "PHP", "Python"];
+        var x, txt;
+        for (x =0, txt= ""; x < myCourses.length;  x++) {
+            txt += myCourses[x] + "<br>";
+        }
+        document.getElementById("courses").innerHTML = txt;
+        var total =myCourses.length;
+        var i, count ="";
+        for (i =1; i<=120; i++){
+            if (i%2 != 0){
+            count += "Odd values are " + i + "<br>";
+            }
+        }
+        document.getElementById("odd").innerHTML = count;
+    </script>
+</body>
