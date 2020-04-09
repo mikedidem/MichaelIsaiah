@@ -1,0 +1,113 @@
+body{
+    background-color:#062863 ;
+    background-image: 
+    url(images/blue.png), 
+    url(images/green.png), 
+    url(images/purple.png), 
+    url(images/pink.png);
+background-position: 
+    top -50px left -10px, 
+    top -20px right -90px, 
+    bottom -10px right -70px, 
+    bottom -60px left -45px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 200px;
+background-attachment: fixed;
+font-family: BlinkMacSystemFont, 
+            'Segoe UI', Roboto, Oxygen,
+             sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items:center;
+    padding-bottom: 2em;
+}
+
+.logo{
+  padding: 30px;
+}
+
+  .rcorners2 {
+    border-radius:20px 20px 20px 0px;
+    background: rgb(248, 248, 248);
+    padding: 40px;
+    max-width: 23rem;
+    margin: 0.5rem;
+  }
+  input {
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    margin: 8px 0;
+    background-color: #EDF2F7;
+    display: inline-block;
+    border: 0px solid #dedede;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label{
+    font-family: sans-serif;
+    color: #4a5568;
+    line-height: 2;
+    font-size: .75em;
+    font-weight: bold;
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: #062863;
+    color: beige;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius:15px 15px 15px 0px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1358c7;
+  }
+  h1{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #083e9e;
+    margin: 0em;
+}
+.welcome{
+  font-family: Karla, sans-serif;
+  text-align: center;
+  font-size: .875rem;
+  color: #4a5568;
+  margin-top: .5em;
+
+}
+
+select{
+  padding:18px;
+  outline: none;
+  border: none;
+  background-color: #EDF2F7;
+  border-radius: 8px;
+  width: 100%;
+}
+option{
+  padding:15px;
+  outline: none;
+  border: 5px solid #dedede;
+  border-radius: 3px 3px 3px 3px;
+}
+
+
+  .log{
+    font-size: .875rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-family: Karla, sans-serif;
+    color: white;
+    text-decoration: none;
+}
